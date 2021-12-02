@@ -1,8 +1,8 @@
-# Mobile-first City Website 🏙
+# Mobile-first Vacations Website 🌴
 ## [Watch it on behance](https://github.com/noesrafa/mobilefirst-city-website)
-###  Mobile-first City Website 🏙
+###  Mobile-first Vacations Website 🌴
 
-- City website to the most beautiful cities, using HTML, CSS & JAVASCRIPT.
+- Vacations activities website, using HTML, CSS & JAVASCRIPT.
 - Contains animations when scrolling.
 - Includes a dark and light mode.
 - Developed first with the Mobile First methodology, then for desktop.
@@ -10,5 +10,5 @@
 
 See the others proyects. [Github](https://github.com/noesrafa)
 
-![cities-website](/preview.png)
-![cities-website](/previewDark.png)
+![vacations-website](/preview.png)
+![vacations-website](/previewDark.png)
