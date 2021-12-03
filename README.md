@@ -8,6 +8,6 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-See the others proyects. [Github](https://www.youtube.com/c/Bedimcode)
+See the others proyects. [Github](https://github.com/noesrafa)
 
-![cities-website]
+![cities-website](/preview.jpg)
