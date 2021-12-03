@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--============= SWIPER CSS =============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
     <!--============= CSS =============-->
     <link rel="stylesheet" href="./assets/css/index.css">
     
@@ -14,7 +18,9 @@
 </head>
 <body>
     <header class="header" id="header">
-        <nav class="nav_container container">
+        <nav class="nav__container container">
+            <a href="#" class="nav__logo">Bestcity</a>
+
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
@@ -34,11 +40,114 @@
                 <i class="ri-close-line nav__close" id="nav-close"></i>
             </div>
 
-            <div class="nav__togle" id="nav-toggle">
+            <div class="nav__toggle" id="nav-toggle">
                 <i class="ri-function-line"></i>
             </div>
         </nav>
     </header>
+
+    <main class="main">
+    <!-- ======================== HOME ====================== -->
+        <section class="home" id="home">
+            <img src="./assets/img/home1.jpg" alt="home imagen" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle"> Explore the world</span>
+                    <h1 class="home__data-title"> Explore The Most <b>Fun <br> Resorts</b></h1>
+    
+                    <a href="#" class="btn">Discover</a>
+                </div>
+    
+                <div class="home__social">
+                    <a href="#" class="home__social-link" target="_blank">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="#" class="home__social-link" target="_blank">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="#" class="home__social-link" target="_blank">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+    
+                <div class="home__info">
+                    <div>
+                        <span class="home__info-title">7 extreme activities to do</span>
+                        <a href="#" class="btn btn--flex btn--link home__info-btn">
+                            Read <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+    
+                    <div class="home__info-overlay">
+                        <img src="./assets/img/home2.jpg" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============== ABOUT ============== -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">More Information <br>About our best locations </h2>
+                    <p class="about__description">You can find the most fun and extreme activities at the best prices with special discounts, you choose the place we will guide you all the way to wait, get your place now.</p>
+                    <a href="#" class="btn">Reserve your place</a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="./assets/img/about1.jpg" alt="" class="about__img-one">
+                    </div>
+                    <div class="about__img-overlay">
+                        <img src="./assets/img/about2.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+           <section class="discover section" id="discover">
+                <h2 class="section__title">Discover the most <br> fun activities</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Snorkeling</h2>
+                                <span class="discover__description">24 tours available</span>
+                            </div>
+                        </div>
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Beach Play</h2>
+                                <span class="discover__description">15 tours available</span>
+                            </div>
+                        </div>
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Kayaking</h2>
+                                <span class="discover__description">18 tours available</span>
+                            </div>
+                        </div>
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Cave Exploration</h2>
+                                <span class="discover__description">32 tours available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    </main>
+    <!--============= SWIPER JS =============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
     
     <!--============= INDEX JS =============-->
     <script src="./assets/js/index.js"></script>
