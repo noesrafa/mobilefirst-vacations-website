@@ -10,4 +10,5 @@
 
 See the others proyects. [Github](https://github.com/noesrafa)
 
-![cities-website](/preview.jpg)
+![cities-website](/preview.png)
+![cities-website](/previewDark.png)
